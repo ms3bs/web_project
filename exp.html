@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="инвестиции, калькулятор, рынок, новостьи, статьи, деньги">
+    <link href = "outline.css" rel = "stylesheet">
+    <title>
+        Responsive Header Demo
+    </title>
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <h2>
+            Investment Calculator
+        </h2>
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href = "https://investmentcalculator.io/">Хороший сайт номер 1</a>
+                </li>
+                <li>
+                    <a href = "https://journal.open-broker.ru/services/invest-calculator/">Хороший сайт номер 2</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+<aside class = "aside">
+    <pre>
+                      ГРАФИК ВАШИХ СБЕРЕЖЕНИЙ
+
+
+       *
+       *
+       *
+       *
+       *
+       *                                            ..
+       *                                         -:.
+       *                                       .*.
+       *                                -::  .:.
+       *                               .: .*-.
+       *                         --   --
+       *                       .* :  :.
+       *                      :-  :.:
+       *                     :.
+       *            -+     .:
+       *           --:.   -:
+       *          :. .:  :.
+       *         :.   :.*.
+       *    .  .:
+       *   :.:-:
+       * .*
+       *.:
+       +:...............................................
+
+    </pre>
+</aside>
+<div class="content">
+    <div class="container">
+        <section>
+            <h2>Поддерживает валюты:</h2>
+            <ul class="ul">
+                <li><strong>Доллары</strong></li>
+                <li><strong>Евро</strong></li>
+                <li><strong>Рубли</strong></li>
+            </ul>
+        </section>
+        <section>
+            <h2 >Как мы рассчитываем (snippet кода)</h2>
+            <pre id="snippet">
+            <code>
+            #цель-30000000 рублей
+            target = 30000000 #цель
+            summ = 0 #сколько на счету сейчас
+            dividends = 0.02 #дивиденды - растущие 2%, накопительные 4% ближе к концу срока
+            cashflow = 10000 #сколько откладываю
+            market_growth = 1.016 #средний рост рынка в месяц - тут он 1,6% или 20% в год
+            i = 0
+            while(summ < target):
+                i+=1
+                summ+=cashflow+summ*dividends/12
+                summ*=market_growth
+                if i%12==0:
+                    summ+=52000
+                    print("прошло ",i//12," лет, сумма равна ", summ//1, " рублей, откладываю ", cashflow//1)
+            print("прошло ",i//12," лет и ", i%12, " месяца(ев), сумма равна ", summ//1, " рублей, дивиденды равны ", summ*0.04//12)
+            </code>
+        </pre>
+        </section>
+        <section>
+            <h2>Формула успеха настоящего мамкиного инвестора:</h2>
+            <p>M = E<sup>Q</sup> * L<sub>n</sub></p>
+            <p>Где M - money, E - effort, Q - quality, L - luck, n - number of tries</p>
+        </section>
+        <h2>Любимая цитата создателя сайта</h2>
+        <section>
+        <q>Инвестируйте в меня, и я вам когда-нибудь что-нибудь верну наверное (c) </q>
+            <cite><b>Олег Тиньков</b></cite>
+        </section>
+    </div>
+</div>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
