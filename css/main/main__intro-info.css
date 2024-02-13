@@ -1,0 +1,7 @@
+.main__intro-info
+{
+	padding-top: 50px;
+	position: relative;
+    z-index: 2;
+    max-width: 550px;
+}

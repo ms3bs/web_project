@@ -1,0 +1,12 @@
+.page__link 
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.page__link:hover 
+{
+	background: #1c1c1e;
+	text-decoration: underline;
+	color: #265301;
+}

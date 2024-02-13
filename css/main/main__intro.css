@@ -1,0 +1,21 @@
+.main__intro
+{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	background: rgba(25, 25, 25, .5) url(../../img/background-info.jpg) no-repeat center center / cover;
+	min-height: 320px;
+}
+
+
+.main__intro:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.6);
+	z-index: 1;
+}

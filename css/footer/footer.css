@@ -1,0 +1,14 @@
+.footer
+{
+	height: 50px;
+	width: 100%;
+}
+
+.footer_margin-top_1
+{
+	margin-top: 20px;
+}
+
+.footer_background-color_theme-1 {
+	background: rgb(40, 40, 40);
+}

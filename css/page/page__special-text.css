@@ -1,0 +1,16 @@
+.page__special-text 
+{
+	width: 400px;
+	display: inline-block;
+    font-family: Verdana, Trebuchet, Helvetica;
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: 700;
+	text-align: end;
+	vertical-align: middle;
+	text-indent: 10%;
+	word-spacing: 10px;
+	font-style: italic;
+	text-decoration: green wavy underline;
+	text-transform: uppercase;
+}

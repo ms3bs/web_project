@@ -1,0 +1,10 @@
+.header {
+	position: fixed;
+	height: 56px;
+	width: 100%;
+	z-index: 1000;
+}
+
+.header_background-color_theme-1 {
+	background: #1c1c1e;
+}

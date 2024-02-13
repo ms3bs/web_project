@@ -1,0 +1,9 @@
+.main__container
+{
+	padding-top: 60px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+    padding: 17px 15px 0px 15px;
+    max-width: 900px;
+}
