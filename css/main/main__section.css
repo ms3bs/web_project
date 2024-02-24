@@ -1,6 +1,7 @@
 .main__section
 {
 	margin: 5px;
+	border-radius: 4px;
 }
 
 .main__section_background_theme-1

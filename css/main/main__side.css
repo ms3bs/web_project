@@ -1,0 +1,14 @@
+.main__side
+{
+	float: right;
+	display: flex;
+	flex-direction: column;	
+	min-width: 250px;
+}
+
+@media screen and (max-width: 991px) {
+    .main__side
+    {
+        display: none;
+    }
+}

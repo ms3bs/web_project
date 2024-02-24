@@ -1,0 +1,6 @@
+.main__advertisement
+{
+	background: rgba(40, 40, 40, 0) url(../../img/advertisement.png) no-repeat center center / cover;
+	height: 1000px; 
+	width: inherit;
+}

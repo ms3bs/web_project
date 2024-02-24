@@ -2,7 +2,8 @@
 	position: fixed;
 	height: 56px;
 	width: 100%;
-	z-index: 1000;
+	z-index: 100;
+	top: 0;
 }
 
 .header_background-color_theme-1 {

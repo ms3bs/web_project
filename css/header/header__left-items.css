@@ -2,3 +2,9 @@
 	display: flex;
 	align-items: center;
 }
+
+@media screen and (max-width: 991px) {
+    .header__left-items {
+    	display: none;
+    }
+}

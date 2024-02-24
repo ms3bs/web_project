@@ -1,4 +1,15 @@
 .title-carousel
 {
-	
+	display: flex;
+	justify-content: start;
+	flex-direction: row;
+  	flex-wrap: wrap;
+	width: 100%;
+}
+
+.content {
+  margin: auto;
+  padding: 30px;
+  width: 100%;
+  box-sizing: border-box;
 }

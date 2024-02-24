@@ -1,0 +1,8 @@
+.main__content
+{
+	overflow: auto;
+	padding-top: 60px;
+	margin: 0 auto;
+    padding: 17px;
+    max-width: 1100px;
+}

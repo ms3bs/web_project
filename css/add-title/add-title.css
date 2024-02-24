@@ -1,0 +1,14 @@
+.add-title {
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.add-title_active {
+	display: block;
+	z-index: 1001;
+}

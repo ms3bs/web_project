@@ -1,0 +1,7 @@
+.title-carousel__title
+{
+	width: calc((100% - 6 * 10px) / 6);
+	min-width: 90px;
+	aspect-ratio: 11/17;
+	margin: 0 5px;
+}

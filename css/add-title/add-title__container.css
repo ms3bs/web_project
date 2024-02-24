@@ -1,0 +1,10 @@
+.add-title__container {
+	position: relative;
+	width: 40%;
+	max-width: 400px;
+	top: 15%;
+	margin: auto auto;
+	background: #1c1c1e;
+	padding: 20px;
+	border-radius: 4px;
+}

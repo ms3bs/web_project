@@ -1,0 +1,10 @@
+.title {
+	position: relative;
+	padding: 8px;
+}
+
+.title_size_1 {
+	width: calc((100% - 12 * 8px) / 6);
+	min-width: 90px;
+	aspect-ratio: 11/17;
+}

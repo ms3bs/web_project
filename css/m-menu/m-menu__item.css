@@ -1,0 +1,8 @@
+.m-menu__item
+{
+	height: 10px;
+	width: 85%;
+	padding: 17px 0 15px 15%;
+	font-weight: 550;
+	border-bottom: 1px solid #ddd;
+}

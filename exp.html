@@ -1,21 +1,50 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-		<link rel="stylesheet" href="css/page/page.css">
+<table width="100%" border="1">
+    <thead>
+    <tr>
+        <td>Таб</td>
+        <td>ФИО</td>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+<template id="template">
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</template>
+<script>
+    var template = document.querySelector('#template');
+    var td = template.content.querySelectorAll('td'),
+        tbody = document.querySelector('tbody');
+    var obj = {
+        "1":'Andrey',
+        "2":'Ola',
+        "3":'Artem',
+        "4":'Aleksey',
+        "5":'Aleksander',
+        "6":'Aleksanderasd'
+    };
+    for(i in obj){
+        td[0].textContent = i;
+        td[1].textContent = obj[i];
+        var clone = document.importNode(template.content, true);
+        tbody.appendChild(clone);
+    }
+</script>
 
-<title>JS Bin</title>
-</head>
-<body>
-  
-<div class="parent">
-  <div class="element small">asnja</div>
-  <div class="element medium">sajcjabs
-  ascsa</div>
-  <div class="element big">jbsahc
- cjbsajbcjas
-scasc</div>
-</div>
 
-</body>
-</html>
+
+
+    let template = document.querySelector("template")
+    let parent = document.getElementById("parent")
+    let template-name = document.getElementById("title-name")
+
+    template-name = document.getElementById("title-name")
+    let title = {
+        "title-name": document.getElementById("title-name");
+    }
+    alert(template-name)
+
+    let clone = document.importNode(template.content, true);
+    parent.appendChild(clone);

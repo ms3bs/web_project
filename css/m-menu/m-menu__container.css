@@ -1,0 +1,18 @@
+.m-menu__container {
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+	width: 380px;
+	height: 100%;
+	z-index: 1001;
+}
+
+.m-menu__container_background_theme-1 {
+	background: #1c1c1e;
+}
+
+@media screen and (max-width: 500px) {
+    .m-menu__container {
+        width: 100%;
+    }
+}

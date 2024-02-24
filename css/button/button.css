@@ -1,0 +1,12 @@
+.button {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background-color: #1c1c1e;
+	color: #ddd;
+}
+
+.button_size_1 {
+	float: right;
+	height: 30px;
+	width: 120px;
+}

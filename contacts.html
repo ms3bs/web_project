@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+
+	<title>MangaReader</title>
+	<meta name="description" content="читалка манги">
+	<meta name="keywords" content=" манга, манга онлайн, читать мангу, манга на русском, читалка манги">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=400, initial-scale=1.0">
+
+	
+	<link rel="stylesheet" href="css/page/page.css">
+	<link rel="stylesheet" href="css/page/page__link.css">
+	<link rel="stylesheet" href="css/page/page__title.css">
+	<link rel="stylesheet" href="css/page/page__special-text.css">
+
+	<link rel="stylesheet" href="css/header/header.css">
+	<link rel="stylesheet" href="css/header/header__container.css">
+	<link rel="stylesheet" href="css/header/header__item.css">
+	<link rel="stylesheet" href="css/header/header__left-items.css">
+	<link rel="stylesheet" href="css/header/header__right-items.css">
+	<link rel="stylesheet" href="css/header/header__m-items.css">
+
+	<link rel="stylesheet" href="css/m-menu/m-menu.css">
+	<link rel="stylesheet" href="css/m-menu/m-menu__container.css">
+	<link rel="stylesheet" href="css/m-menu/m-menu__item.css">
+	<link rel="stylesheet" href="css/m-menu/m-menu__left-user-item.css">
+	<link rel="stylesheet" href="css/m-menu/m-menu__right-user-item.css">
+	<link rel="stylesheet" href="css/m-menu/m-menu__button.css">
+	<link rel="stylesheet" href="css/m-menu/m-menu__active-item.css">
+
+	<link rel="stylesheet" href="css/main/main.css">
+	<link rel="stylesheet" href="css/main/main__container.css">
+	<link rel="stylesheet" href="css/main/main__content.css">
+	<link rel="stylesheet" href="css/main/main__basic.css">
+	<link rel="stylesheet" href="css/main/main__side.css">
+	<link rel="stylesheet" href="css/main/main__intro.css">
+	<link rel="stylesheet" href="css/main/main__intro-container.css">
+	<link rel="stylesheet" href="css/main/main__intro-info.css">
+	<link rel="stylesheet" href="css/main/main__intro-title.css">
+	<link rel="stylesheet" href="css/main/main__section.css">
+	<link rel="stylesheet" href="css/main/main__section-container.css">
+	<link rel="stylesheet" href="css/main/main__advertisement.css">
+
+	<link rel="stylesheet" href="css/title-list/title-list.css">
+	<link rel="stylesheet" href="css/title/title.css">
+	<link rel="stylesheet" href="css/title/title__photo.css">
+	<link rel="stylesheet" href="css/title/title__caption.css">
+	<link rel="stylesheet" href="css/title/title__name.css">
+	<link rel="stylesheet" href="css/title/title.css">
+
+	<link rel="stylesheet" href="css/title-carousel/title-carousel.css">
+	<link rel="stylesheet" href="css/title-carousel/title-carousel__title.css">
+	<link rel="stylesheet" href="css/title-carousel/title-carousel__title-image.css">
+	<link rel="stylesheet" href="css/title-carousel/title-carousel__title-number.css">
+
+	<link rel="stylesheet" href="css/footer/footer.css">
+	<link rel="stylesheet" href="css/footer/footer__container.css">
+	
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+	<script src="css/m-menu/collapse-menu.js"></script>
+</head>
+
+<body class = "page page_background-color_theme-1 page_text_theme-1">
+	<div class = "page__inner">
+		<header class="header header_background-color_theme-1">
+			<div class="header__container">
+				<div class="header__left-items">
+					<a href="index.html" class = "logo header__item"><img src="img/logo-2.png" width = 35 title="MangaReader"></a>
+					<a href="index.html" class="page__link header__item">Главная</a>
+					<a href="catalog.html" class="page__link header__item">Каталог</a>
+					<a href="planner.html" class="page__link header__item">Планы</a>
+					<a href="info.html" class="page__link header__item">Информация</a>
+					<a href="contacts.html" class="page__link header__item">Контакты</a>
+				</div>
+				<div class="header__right-items account-menu">
+					<a href="exp.html" class="page__link header__item">Вход</a>
+					<a href="exp.html" class="page__link header__item">Регистрация</a>
+				</div>
+				<div class = "header__m-items">
+					<img src="img/gamburger.png" class="header__item" onclick='collapseMenu()' width = "28px">
+					<a href="index.html" class="logo header__item"><img src="img/logo-2.png" width = 35 title="MangaReader"></a>
+				</div>
+			</div>
+			<div class="m-menu m-menu_size_1 m-menu_position_1 m-menu_background">
+				<div class="m-menu__container m-menu__container_background_theme-1">
+					<div class="m-menu__item">
+						<div class="m-menu__button" onclick='collapseMenu()'>
+							<img src="img/gamburger.png" >
+						</div>
+					</div>
+					<div class="m-menu__item">
+						<a href="exp.html" class = "page__link m-menu__left-user-item">Вход</a>
+						<a href="exp.html" class = "page__link m-menu__right-user-item">Регистрация</a>
+					</div>
+					<a href="index.html" class = "page__link m-menu__item">Главное</a>
+					<a href="catalog.html" class = "page__link m-menu__item">Каталог</a>
+					<a href="planner.html" class = "page__link m-menu__item">Планы</a>
+					<a href="info.html" class = "page__link m-menu__item">Информация</a>
+					<a href="contacts.html" class = "page__link m-menu__item">Контакты</a>
+				</div>
+			</div>
+		</header>
+		<main class = "main">
+			<div class = "main__container">
+
+				<div class = "main__content">
+					<div class = "main__basic">
+					</div>					
+					<div class = "main__side">
+						<div class = "main__section main__section_background_theme-1">
+							<div class = "main__section-container">
+								<a href="ссылка на рекламу">
+									<div class="main__advertisement"></div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	<footer class="footer footer_background-color_theme-1 footer_margin-top_1">
+		<div class="footer__container">
+			<div id="page-load"></div>
+		</div>
+	</footer>
+<script src="libs/jquery/jquery-3.7.1.min.js"></script>>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="css/m-menu/activate-menu.js"></script>
+<script src="css/footer/loadtime.js"></script>
+<script src="css/title-carousel/title-carousel.js"></script>
+</body>
+</html>

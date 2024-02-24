@@ -1,0 +1,15 @@
+.main__basic
+{
+	float: left;
+	display: flex;
+	flex-direction: column;
+	width: calc(100% - 250px);
+}
+
+@media screen and (max-width: 991px) {
+    .main__basic
+    {
+        float: none;
+        width: 100%;
+    }
+}

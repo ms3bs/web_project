@@ -1,7 +1,6 @@
 .footer__container
 {
-	width: 70%;
-	max-width: 1200px;
-	padding: 15px 15px;
+	max-width: 1100px;
+	padding: 15px;
     margin: 0 auto;
 }

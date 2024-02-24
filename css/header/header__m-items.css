@@ -1,0 +1,12 @@
+.header__m-items {
+	display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .header__m-items {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+    }
+}

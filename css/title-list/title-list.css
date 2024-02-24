@@ -1,0 +1,7 @@
+.title-list {
+	display: flex;
+	justify-content: start;
+	flex-direction: row;
+  	flex-wrap: wrap;
+	width: 100%;
+}

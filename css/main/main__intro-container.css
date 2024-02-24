@@ -1,6 +1,7 @@
 .main__intro-container
 {
 	margin: 0 auto;
-    padding: 17px 15px 0px 15px;
-    min-width: 800px;
+    padding: 20px 15px 0px 0px;
+    max-width: 90%;
+    width: 1100px;
 }

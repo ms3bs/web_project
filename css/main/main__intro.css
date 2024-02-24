@@ -3,8 +3,9 @@
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	background: rgba(25, 25, 25, .5) url(../../img/background-info.jpg) no-repeat center center / cover;
-	min-height: 320px;
+	background: rgba(0, 0, 0, .6) url(../../img/background-info.jpg) repeat center center / cover;
+	min-height: 350px;
+	width: 100%;
 }
 
 

@@ -1,0 +1,10 @@
+.add-title__input {
+	width: calc(100% - 10px);
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	background-color: #1c1c1e;
+	color: #ddd;
+	height: 30px;
+	font-size: 20px;
+}
